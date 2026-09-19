@@ -1,1 +1,0 @@
-"""LenCLIP segmentation decoder."""
