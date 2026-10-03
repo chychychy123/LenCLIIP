@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional: convert official instance JSON annotations to contiguous ID masks.
+pycocotools>=2.0.7,<3

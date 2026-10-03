@@ -1,0 +1,226 @@
+{
+  "project": "LenCLIP",
+  "validation": "File inventory and naming review only. No source import, compile, model run or tests executed.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 95,
+      "sha256": "ba36a4011f11c2178c2548aee076b578538b1e298b23260999c40edd8cf642d1"
+    },
+    {
+      "path": "clip/__init__.py",
+      "bytes": 20,
+      "sha256": "d7930eb290ebed432116795c91473200d098451a94c0aedd4ae0f934f97955e8"
+    },
+    {
+      "path": "clip/bpe_simple_vocab_16e6.txt.gz",
+      "bytes": 1356917,
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+    },
+    {
+      "path": "clip/clip.py",
+      "bytes": 9964,
+      "sha256": "138af088537ae3f9f68c47084232f0f63428147c5afa92681ae2e35be29dd30b"
+    },
+    {
+      "path": "clip/clip_text.py",
+      "bytes": 1511,
+      "sha256": "1bf00b979ccd2717d90b019f275134e89d8c84c9e40fbb3c7be54dafcf7d71d2"
+    },
+    {
+      "path": "clip/model.py",
+      "bytes": 20227,
+      "sha256": "a0dfd74c33f4f6453ac6a1653e27bf5c8c2f3b0628d03390e7a739fd75d85a4c"
+    },
+    {
+      "path": "clip/simple_tokenizer.py",
+      "bytes": 4632,
+      "sha256": "d1b09f10ed3d1e2c343619cb98cbfacb92363dd8607526a43aa7fe2d60d15bad"
+    },
+    {
+      "path": "configs/lenclip_coco.yaml",
+      "bytes": 1523,
+      "sha256": "661adac4ca0782822bd88ef46e7529a7e2844d6b9df0a8d0e09065b08705df3c"
+    },
+    {
+      "path": "configs/lenclip_voc.yaml",
+      "bytes": 1460,
+      "sha256": "b94670f06a5da0fdef83e7f7d0f6846bae8266252e2949db80706d7e58f6b9f2"
+    },
+    {
+      "path": "datasets/__init__.py",
+      "bytes": 71,
+      "sha256": "e4718909947c6f11156484f458ab816d2b9852cae8825bab1d5f6f0d4038605d"
+    },
+    {
+      "path": "datasets/coco/cls_labels_onehot.npy",
+      "bytes": 20818864,
+      "sha256": "f8069182f6683e519014c8c3524db8ff94071ac98bac980049092b4c0722470f"
+    },
+    {
+      "path": "datasets/coco/train.txt",
+      "bytes": 2298268,
+      "sha256": "2985c4b482da49946f2e5dfb9a12f44bee154529cd601f63b1105942d763a8f9"
+    },
+    {
+      "path": "datasets/coco/val.txt",
+      "bytes": 1043562,
+      "sha256": "6f65de2c151265166b98f2202c9822d6a81f607f2c39e39c01d279d9de690c1a"
+    },
+    {
+      "path": "datasets/lenclip_data.py",
+      "bytes": 5024,
+      "sha256": "b10ade5f4b91cc3edf9fed07193273ff7c3ad192dbb3d0c1d159bfee37e5309b"
+    },
+    {
+      "path": "datasets/voc/cls_labels_onehot.npy",
+      "bytes": 2111700,
+      "sha256": "f2dfdcfdcd5f0a734ef5d447466508a9078b5dc40f9711b74711ed74906b5354"
+    },
+    {
+      "path": "datasets/voc/test.txt",
+      "bytes": 17471,
+      "sha256": "7d323bb3448fa174b9194953e01dfd168c9890adb30dd2491a66536edbeca0aa"
+    },
+    {
+      "path": "datasets/voc/train.txt",
+      "bytes": 17568,
+      "sha256": "aa623bd2c8ce4443a8aaae51c524c0eb165e8e44caf6aa9e3ad33d7b75a3ef20"
+    },
+    {
+      "path": "datasets/voc/train_aug.txt",
+      "bytes": 126984,
+      "sha256": "d1326bd532648d73bc4b1bd275434eba81930982dc7401a65a8cecb26c028e24"
+    },
+    {
+      "path": "datasets/voc/trainval.txt",
+      "bytes": 34956,
+      "sha256": "f8dae64f9e08d8b06ef41286dcd4c516e7d98c8e6ec6d965bc6d29cb11a4de51"
+    },
+    {
+      "path": "datasets/voc/val.txt",
+      "bytes": 17388,
+      "sha256": "cdc1326d12f69ce5153aa5da04a4d8783e146868d42d19f82f44e74b97ac907d"
+    },
+    {
+      "path": "docs/IMPLEMENTATION.md",
+      "bytes": 10615,
+      "sha256": "5375f6bca4215c936e8fc2428dca6fbd2e73a05a82063a525462b25cc8dd168f"
+    },
+    {
+      "path": "LenCLIP_model/__init__.py",
+      "bytes": 52,
+      "sha256": "a68c5192de521c0be5e233eb7d4fbee0a0a79a4ec4dc3ee35bcf57b816727e70"
+    },
+    {
+      "path": "LenCLIP_model/Decoder/__init__.py",
+      "bytes": 36,
+      "sha256": "3522f17449517858c59c5b13dedd7d5ae7120c9b6fad32b75e04c2bff678a4cf"
+    },
+    {
+      "path": "LenCLIP_model/Decoder/TransDecoder.py",
+      "bytes": 2891,
+      "sha256": "0a89c001c5489764d0445857c70247ae3646591bd5b62ef0fe4149f015e4c348"
+    },
+    {
+      "path": "LenCLIP_model/lenclip.py",
+      "bytes": 9425,
+      "sha256": "117e99452da2ddeeb11dd50a3f4068981a1ad33857aae27e05a2db99c04eeaa0"
+    },
+    {
+      "path": "LenCLIP_model/lpg.py",
+      "bytes": 2346,
+      "sha256": "a46525a6ea648695a0f10fee6bb28f778b68b72496d85dffca3c711f7f2913d9"
+    },
+    {
+      "path": "LenCLIP_model/PAR.py",
+      "bytes": 2662,
+      "sha256": "a7b93e205b8ab0dd14cfeafc9625a46b53bd40c9fc1abd2ada1e7cd3113f3d29"
+    },
+    {
+      "path": "LenCLIP_model/prompts.py",
+      "bytes": 2025,
+      "sha256": "7c96035e9baaea50a4dcd219e9cd320566c4bcd9d7d3573b2d7272ec67988b59"
+    },
+    {
+      "path": "LenCLIP_model/segformer_head.py",
+      "bytes": 2628,
+      "sha256": "2d9f45c6c334c68036bfe12dc204311148b6831885b3493bb9b38d9a2c1e03a0"
+    },
+    {
+      "path": "LenCLIP_model/visual_alignment.py",
+      "bytes": 2902,
+      "sha256": "a9cb280d709aa1e2a1593e4d245981e45b68b7d435e3492bf7e1392418f39a4e"
+    },
+    {
+      "path": "pretrained/README.md",
+      "bytes": 184,
+      "sha256": "12cfe8d3dde2ac1254fad212143dce75ab785e7052a9b4f2dd1923b0fba0a8e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10031,
+      "sha256": "6ddc10fb5012fe7f43ae14f58589b2960aca3d5416c9d8f225d4627fcaec69c5"
+    },
+    {
+      "path": "requirements-coco.txt",
+      "bytes": 121,
+      "sha256": "937795a94139a0a906dab1b46104424e903beb866eafbbc60238336f1c432e69"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 236,
+      "sha256": "a5d925d26c2e6c02c7b41698172d1fe79c2b4938a73b2d5968d44be5c2f1df24"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 41,
+      "sha256": "973ec53fc8b865a2abf82f2140141d0120db1b3478cf28d2930bf3fb00e8d007"
+    },
+    {
+      "path": "scripts/infer_lenclip.py",
+      "bytes": 3702,
+      "sha256": "98f6defac8f95efe258e893074e8cab2205fe13fcd688b5648885a8ce9aedd4b"
+    },
+    {
+      "path": "scripts/prepare_coco_masks.py",
+      "bytes": 1985,
+      "sha256": "48bb0af9bb077c6bf753996985757960f24bdedc11aae8cdc1c542dd8ebd7c2f"
+    },
+    {
+      "path": "scripts/train_lenclip.py",
+      "bytes": 8356,
+      "sha256": "1a0633fbc2d9bcd44afe0584db99228b123945250847339c2a73e28c9648a9ce"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2266,
+      "sha256": "fe82d913cca090a5ce1a09a8f0c5408f4a32c410f9672f1d52b45b53a7744a5f"
+    },
+    {
+      "path": "utils/__init__.py",
+      "bytes": 48,
+      "sha256": "43359aa47970b40e401b630ca22c32543f675bc550e0a2d3c733be40742f8b0d"
+    },
+    {
+      "path": "utils/checkpoint.py",
+      "bytes": 1645,
+      "sha256": "c6cf19ec63bc30222dc307c3525890e232a64652e7d76375178b7ff4816cd146"
+    },
+    {
+      "path": "utils/config.py",
+      "bytes": 1379,
+      "sha256": "70ff811f9f993e1d91a11f170136681fc4bb73ebd2ac4d2ccf4deedd053629bf"
+    },
+    {
+      "path": "utils/inference.py",
+      "bytes": 2530,
+      "sha256": "ae9a48eff74f9a092e131df3a33a906516503509e1b1b61dc297d3b639fc293d"
+    },
+    {
+      "path": "utils/losses.py",
+      "bytes": 1544,
+      "sha256": "5de0057be21115378b6fa898cdbf3bcddec2aa237eb3b6d37980bc8f2e1b5bc6"
+    }
+  ]
+}
